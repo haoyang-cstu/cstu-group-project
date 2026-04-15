@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>cstu_group_project</name>
+  <version>0.0.0</version>
+  <description>Simple city drive simulation with CV stop-sign detection (integrated)</description>
+  <maintainer email="user@example.com">You</maintainer>
+  <license>MIT</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_python</buildtool_depend>
+  <depend>rclpy</depend>
+  <depend>sensor_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>cv_bridge</depend>
+  <depend>xacro</depend>
+  <exec_depend>gazebo_ros</exec_depend>
+  <exec_depend>gazebo_ros2_control</exec_depend>
+  <exec_depend>gazebo_msgs</exec_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>controller_manager</exec_depend>
+  <exec_depend>diff_drive_controller</exec_depend>
+  <exec_depend>joint_state_broadcaster</exec_depend>
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
