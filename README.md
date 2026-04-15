@@ -1,3 +1,4 @@
+# cstu-group-project
 City Drive Simulation (integrated with ros2_control)
 
 This folder contains the city drive simulation integrated into the `cstu-group-project` repository.
@@ -40,10 +41,3 @@ Three image windows will automatically open:
 **Controllers:**
 - `diff_drive_controller`: Drives left/right wheels, reads `/cmd_vel` (Twist) messages
 - `joint_state_broadcaster`: Publishes joint states to `/joint_states`
-
-**Manual override** (optional):
-```bash
-ros2 run teleop_twist_keyboard teleop_twist_keyboard
-```
-Use arrow keys to drive the car.
-# cstu-group-project
